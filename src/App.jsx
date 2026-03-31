@@ -12,7 +12,7 @@ function App() {
 
     <>
       <h1>react + vite</h1>
-      <Suspense fallback={<h1> nadir on the go....</h1>}>
+      <Suspense fallback={<h5> nadir on the go....</h5>}>
         <Countries countriesPromise={countriesPromise} ></Countries>
       </Suspense>
 
