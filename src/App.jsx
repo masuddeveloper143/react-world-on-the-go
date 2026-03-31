@@ -4,8 +4,10 @@ import './App.css'
 function App() {
 
   return (
+
     <>
-<h1>react + vite</h1>
+      <h1>react + vite</h1>
+
     </>
   )
 }

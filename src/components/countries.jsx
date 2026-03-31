@@ -1,15 +1,12 @@
-function Countries() {
-    <div>
+import React from 'react';
 
-    </div>
-}
-
-// -----------
-
-const Countries = () => {
+const countries = () => {
     return (
         <div>
-
+            <h1>trabeling countries</h1>
         </div>
-    )
-}
+    );
+};
+
+export default countries;
+
