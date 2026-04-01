@@ -3,7 +3,7 @@ import { Suspense } from 'react';
 import './App.css'
 import Countries from './components/countries'
 
-const countriesPromise = fetch("https://restcountries.com/v3.1/all?fields=name,capital,currencies")
+const countriesPromise = fetch("https://restcountries.com/v3.1/all?fields=name,capital,currencies,flags")
   .then(res => res.json());
 
 function App() {
