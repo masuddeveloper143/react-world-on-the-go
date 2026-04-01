@@ -6,7 +6,15 @@ const country = ({ country }) => {
 
 
     const handleVisited = () => {
-        setVisited(true)
+        // if(Visited === true){
+        //     setVisited(false)
+        // }
+
+        // else{
+        //     setVisited(true);
+        // }
+
+    setVisited(!Visited)
     }
 
     return (

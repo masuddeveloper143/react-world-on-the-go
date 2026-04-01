@@ -1,4 +1,4 @@
-import React, { use } from 'react';
+import React, { use, useState } from 'react';
 import Country from './countries/country/country';
 
 import './countries/countries.css'
@@ -6,8 +6,11 @@ import './countries/countries.css'
 
 
 const countries = ({ countriesPromise }) => {
+
+const [visitedCountries, setVisitedCountries] = useState([])
+
     const countries = use(countriesPromise);
-    console.log(countries);
+    
     return (
         <div>
             <h1>trabeling countries: {countries.length}</h1>
